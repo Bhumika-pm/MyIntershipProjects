@@ -1,377 +1,130 @@
-* {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 body{
-   background: rgb(47, 1, 48);
-   color: white;
-   background-color: rgb(55, 1, 57);
-   text-decoration: none;
-}
-nav{
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 90px;
-    background-color: rgb(100, 10, 100);
-    padding: 0.5rem;
-   
+    min-height: 100vh;
+    background: rgb(24, 87, 87);
 }
-nav ul{
-    display: flex;
-   justify-content: center;
-}
-nav ul li{
-    list-style: none;
-    color: white;
-    margin: 0 21px;
-    float: right;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover{
-    
-    color: rgb(232, 132, 221);
-    font-size: 1.3rem;
-}
-hr{
-    border: 0;
-    background-color: rgb(194, 4, 187);
-    height: 1.2px;
-    margin: 40px 84px;
-}
-.left{
-    font-size: 2.1rem;
-    margin-left: 30px;
-    color: white;
-}
-.right{
-    font-size: 1.5rem;
-    margin-left: 30px;
-   
+.box{
+  position: relative;
+  width: 450px;
+  height: 550px;
+  border-radius: 30px;
+  background: rgb(50, 144, 152); 
+  padding: 30px 50px; 
+  box-shadow:5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(0,0,0,0.5),
+  inset -3px -3px 5px rgba(0,0,0,0.5);
 }
 
-
-
-.firstsection{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 100px 0;
-    color: white;
-    text-decoration: none;
-
+h2{
+  width: 100%;  
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 10px;
 }
-.firstsection >div{
-    width: 40%;
-    
+#inputbox{
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 1em;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+  inset 2px 2px 5px rgba(0,0,0,0.5),
+  inset -3px -3px 5px rgba(0,0,0,0.5);
 }
-.leftsection{
-    font-size: 3.2rem;
-    margin: 40px 2px;
-}
-.rightsection img{
-    width: 100%;
-    margin: 35px 1px;
-}
-.purple{
-    color: rgb(241, 101, 227);
-}
-#element{
-    color: rgb(233, 142, 236);
-}
-
-
-
-#about{
-    padding: 60px;
-    color: white;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-}
-.about1{
-    flex-basis: 40%;
-}
-.about1 img{
-    width: 130%;
-}
-.about2{
-    flex-basis: 60%;
-    color: white;
-}
-.subtitle{
-    font-size: 75px;
-    font-weight: 600;
-    color: white;
-}
-.subtitle1{
-    font-size: 50px;
-    font-weight: 400;
-    color: white;
-}
-#p1{
-    color: white;
-    text-align: justify;
-}
-button{
-    background-color: #f6f4f6;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
- }
- #pts{
-    color: #ec58f1;
- }
-
-
- #prod1{
-    text-align: center;
- }
- .sec1{
-    padding: 40px 80px;
- }
- #prod1 .pro-con{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    flex-wrap: wrap;  /*8 img(4+4) no horizontal slide*/
- }
- #prod1 .pro{
-    width: 23%;
-    min-width: 250px;
-    padding: 10px 12px;
-    border: 1px solid white;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 20px 20px 30px rgb(1, 1, 88);
-    margin: 15px 0;
-    transition: 0.2s ease;
+.box li{
     position: relative;
- }
- #prod1 .pro:hover{
-    box-shadow: 20px 20px 30px rgb(1, 1, 63);
- }
- #prod1 .pro img{
-    width: 100%;
-    border-radius: 20px;
- }
- #prod1 .pro .des{
-    text-align: start;
-    padding: 10px 0;
- }
- #prod1 .pro .des h5{
-    padding-top: 7px;
-    color: rgb(212, 203, 203);
-    font-size: 14px;
- }
- #prod1 .pro .des i{
-    font-size: 12px;
-    color: yellow;
- }
- #prod1 .pro .des h4{
-    padding-top: 7px;
-    font-size: 15px;
-    font-weight: 700;
-    color: white;
- }
- #prod1 .pro .cart{
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50px;
-    background-color: white;
-    font-weight: 500;
-    color: lavender;
-    border: 1px solid white;
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
- }
- #p2{
-    font-size: 50px;
-    font-weight: 500;
- }
-
-
- #contact{
-    padding: 70px ;
-    color: white;
-    margin: 40px;
-    align-items: center; 
-}
-#contact button{
-    background-color: #f6f4f6;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.conleft{
-   flex-basis: 30%; 
-   margin: 45px 3px;
-}
-.conright{
-    flex-basis: 55%; 
-    margin: 45px 3px;
- }
- .conleft p{
-   margin-top: 30px; 
- }
- .conleft p i{
-    color: rgb(204, 85, 204);
-    margin-right: 15px;
-    font-size: 25px;
-  }
-  .socialicons{
-    margin-top: 30px;
-  }
-  .socialicons a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    transition: transform 0.5s;
-  }
-  .socialicons a:hover{
-    color: rgb(183, 195, 15);
-    transform: translateY(-5px);
-  }
-  .conright form{
-   width: 100%;
- }
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #f8f8f8;
-    padding: 15px;
-    margin: 15px 0;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    border-radius: 6px;
-}
-.copyright{
-   width: 100%;
-   text-align: center; 
-   padding: 25px 0;
-   background: rgb(3, 3, 3);
-   margin-top: 30px;
-}
-.copyright i{
-    color: rgb(229, 254, 9);
-}
-
-
-#cart table{
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    white-space: nowrap;
-}
-#cart table img{
-   width: 70px;
-
-}
-#cart table td:nth-child(1){
-    width: 100px;
-    text-align: center;
-}
-#cart table td:nth-child(2){
-    width: 150px;
-    text-align: center;
-}
-#cart table td:nth-child(3){
-    width: 200px;
-    text-align: center;
-}
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6){
-    width: 150px;
-    text-align: center;
-}
-#cart table td:nth-child(5) input{
-    width: 70px;
-    padding: 10px 5px 10px 15px;
-}
-#cart table thead{
-   border: 1px solid rgb(255, 255, 255);
-   border-left: none;
-   border-right: none; 
-}
-#cart table thead td{
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 18px 0;
-}
-#cart table tbody tr td{
-    padding: 15px;
-}
-#cart table tbody td{
-    font-size: 13px;
-}
-#cart table td input{
-    color: black;
-    background-color: rgb(255, 255, 255);
-}
-
-#cart-add{
+    width: calc(100% - 40px);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 144, 152);
+    margin: 15px 0;
+    padding: 10px 10px 10px 45px;
+    min-height: 45px;
+    cursor: pointer;
+    border-radius: 22.5px;
+    color: white;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 5px rgba(0,0,0,0.5),
+    inset -3px -3px 5px rgba(0,0,0,0.5);
 }
-#coupon{
-    width: 50%;
-    margin-bottom: 30px;
+.box li i{
+    position: absolute;
+    right: -40px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(244, 74, 74);
+    border-radius: 50%;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 5px rgba(255,255,255,0.25),
+    inset -3px -3px 5px rgba(0,0,0,0.5);
 }
-#coupon h3,
-#subtotal h3{
-    padding-bottom: 15px;
+.box li i::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: white;
+    transform: rotate(45deg);
 }
-#coupon input{
-   padding: 10px;
-   outline: none;
-   width: 60%; 
-   margin-right: 10px;
-   border: 1px solid white;
+.box li i::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: white;
+    transform: rotate(-45deg);
 }
-#coupon button{
-    background-color: gray;
-    color: black;
-    padding: 12px 20px;
+.box li::before{
+   content: '';
+   position: absolute;
+   left: 8px;
+   width: 30px;
+   height: 30px;
+   background: rgb(54, 54, 54);
+   border-radius: 50%; 
 }
-#subtotal{
-    width: 50%;
-    margin-bottom: 30px;
-    border: 1px solid white;
-    padding: 30px;
+.box li.done{
+    background: rgb(30, 100, 100);
 }
-#subtotal table{
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
+.box li.done::after{
+    content: '';
+    position: absolute;
+    left: 16px;
+    width: 12px;
+    height: 6px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(315deg);
 }
-#subtotal table td{
-    width: 50%;
-    border: 1px solid white;
-    padding: 10px;
-    font-size: 13px;
+#list{
+    position: relative;
+    margin-top: 20px;
+    height: 350px;
+    overflow-y: auto;
+    padding-right: 10px;
 }
-#subtotal button{
-    background-color: gray;
-    color: black;
-    padding: 12px 20px;
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: white;
 }

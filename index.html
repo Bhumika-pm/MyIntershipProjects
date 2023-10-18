@@ -3,275 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Whimsy Mingle</title>
 </head>
 <body>
-    <header>
-        <nav>
-           <img src="logo1.png" alt="" width="250" height="210"/>
-           <div class="left">Whimsy Mingle</div>
-            
-           <div class="right" >
-            <ul>
-              <li><a href="#home"> Home </a></li>
-              <li><a href="#about"> About </a></li>
-              <li><a href="#gifts"> Gifts </a></li>
-              <li><a href="#contact"> Contact Us </a></li>
-              <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-            </ul>
-           </div> 
-        </nav>
-    </header> 
-
-     <!---------Home--------->
-     <main>
-        <div id="home">
-          <section class="firstsection">
-            <div class="leftsection" >
-              <p>  Welcome to <span class="purple"> Gift Mingle</span></p> 
-            <p> Your go-to destination for personalized gift boxes.</p> <br> 
-            <span id="element"></span>
-            </div>
-            <div class="rightsection">
-                <img src="pt.png" alt="">
-            </div>
-          </section>
-        <hr>
-    </div>
-    </main> 
-
-
-    <!---------About--------->
-    <div id="about">
-        <div class="row">
-            <div class="about1">
-                <br><br>
-                <br><br>
-                <img src="about.png" alt="">
-            </div>
-          <div class="about2">
-            <h1 class="subtitle">About Us</h1><br>
-            <p id="p1">We are passionate about creating memorable and personalized gifting experiences for every occasion.</p><br>
-            <p id="p1">At Whimsy Mingle, we are driven by the belief that the best gifts go beyond the ordinary. 
-                Our journey began with a passion for creating moments of joy and connection through thoughtful presents. 
-                Committed to delivering personalized gifting experiences, we curate a selection of unique gift boxes for every occasion. 
-                From birthdays to anniversaries, our handpicked items are designed to add a touch of warmth and individuality to your celebrations. 
-                Our team is dedicated to the art of gifting, ensuring each box tells a story and sparks delight. 
-                Join us in the art of giving, where every box is more than a gift - it's a heartfelt expression of your emotions. Welcome to Whimsy Mingle, where every celebration becomes a cherished memory.</p>
-            <br>
-            <br>
-            <h1 class="subtitle1">We are :</h1><br>
-            <ul>
-                <li><span id="pts">Passionate Curators:</span><br> Our team is not just a group of individuals; we are passionate curators who meticulously select each item to ensure that every gift box tells a unique and meaningful story.</li>
-                <li><span id="pts">Quality Craftsmanship: </span><br>Embracing the value of quality craftsmanship, we source products from artisans and creators who share our commitment to excellence, resulting in gifts that are not only beautiful but also built to last.</li>
-                <li><span id="pts">Sustainability Commitment:</span><br>Whimsy Mingle is committed to sustainability. We strive to reduce our environmental footprint by using eco-friendly packaging and supporting brands that prioritize ethical and sustainable practices.</li>
-                <li><span id="pts">Customization Expertise: </span><br>Personalization is at the core of what we do. Our customization options go beyond just names - we offer a range of choices to make each gift box a true reflection of the recipient's personality and preferences.</li>
-                <li><span id="pts">Community Engagement: </span><br>Beyond gifting, Whimsy Mingle believes in giving back. We actively engage with and contribute to our community through partnerships, charitable initiatives, and supporting local businesses.</li>
-            </ul>
-          </div>
+    <div class="container">
+        <div class="box">
+            <h2>To-Do List</h2>
+            <input type="text" placeholder="Write your task here..." id="inputbox">
+            <ul id="list"></ul>
         </div>
     </div>
-    <hr>
 
-
-
-    <!---------Gifts--------->
-    <div id="gifts">
-      <section id="prod1" class="sec1">
-        <h2 class="subtitle">Featured Gifts</h2>
-        <p id="p2">New Collection</p>
-        <div class="pro-con">
-          <div class="pro">
-            <img src="a.jpeg" alt="">
-            <div class="des">
-              <h5>Roses</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 499</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart" ></i></a>
-            
-            
-          </div>
-
-          <div class="pro">
-            <img src="b.jpeg" alt="">
-            <div class="des">
-              <h5>Chocolates</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 699</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="c.jpeg" alt="">
-            <div class="des">
-              <h5>Teddy Bear</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 450</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="d.jpeg" alt="">
-            <div class="des">
-              <h5>Magic Mirror</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 650</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="e.jpeg" alt="">
-            <div class="des">
-              <h5>Name Flip</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 599</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="f.jpeg" alt="">
-            <div class="des">
-              <h5>Mug</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 399</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="g.jpeg" alt="">
-            <div class="des">
-              <h5>Explosion Box</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 799</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-          <div class="pro">
-            <img src="h.jpeg" alt="">
-            <div class="des">
-              <h5>Caricature</h5>
-              <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <h4>Rs 600</h4>
-            </div>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
-          </div>
-
-
-        </div>
-      </section>
-      
-    </div>
-
-
-    <!---------contact--------->
-    <div id="contact">
-
-      <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="conleft">
-                    <h1 class="subtitle">Contact Us</h1>
-                    <p><span class="purple">Mail: </span><i class="fa-sharp fa-solid fa-paper-plane"></i>bhumikapm123@gmail.com</p>
-                    <p><span class="purple">Phone: </span><i class="fa-solid fa-phone"></i>9880647959</p>
-                    <p><span class="purple">Instagram: </span><i class="fa-brands fa-square-instagram"></i>bhumika_pm</p>
-                    <div class="socialicons">
-                      <a href="#contact"><i class="fa-brands fa-square-instagram"></i></a>  
-                      <a href="#contact"><i class="fa-brands fa-square-snapchat"></i></a>  
-                      <a href="#contact"><i class="fa-sharp fa-solid fa-paper-plane"></i></a>  
-                      <a href="#contact"><i class="fa-brands fa-linkedin"></i></a>  
-                    </div><br><br>
-                    
-                </div>
-                <div class="conright">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
-                        <br>
-                        <button type="submit">Submit</button>
-                    </form>
-
-                </div>
-            </div>
-        </div><br>
-        <br>
-        <div class="copyright">
-            <p>Copyright @ Bhumika. Made with <i class="fa-solid fa-heart"> </i> and passion.</p>
-        </div>
-
-    </div>
-
-    </div>
-    
-
-    
-    <script src="https://kit.fontawesome.com/976cda5d51.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed=new Typed('#element',{
-            strings: ['Happiness ^300',' Surprise Factor ^300',' Creative ^300','Bringing Smiles ^300'],
-            typeSpeed:100,
-            smartBackspace:true,
-            loop:true,
-            backSpeed:50,
-            backDelay:400,
-        });
+      let inputbox = document.querySelector('#inputbox');  
+      let list = document.querySelector('#list'); 
+
+      inputbox.addEventListener("keyup",function(event){
+        if(event.key=="Enter"){
+            addItem(this.value)
+            this.value=""
+        }
+      })
+      let addItem=(inputbox)=>{
+        let listItem = document.createElement("li");
+        listItem.innerHTML = `${inputbox}<i></i>`;
+
+           listItem.addEventListener("click",function(){
+            this.classList.toggle('done');
+           }) 
+           listItem.querySelector("i").addEventListener("click",function(){
+            listItem.remove();
+           })
+
+            list.appendChild(listItem);
+      }
     </script>
+    
 </body>
 </html>
