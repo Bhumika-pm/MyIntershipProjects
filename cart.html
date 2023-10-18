@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Whimsy Mingle</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+           <img src="logo1.png" alt="" width="250" height="210"/>
+           <div class="left">Whimsy Mingle</div>
+            
+           <div class="right" >
+            <ul>
+              <li><a href="#home"> Home </a></li>
+              <li><a href="#about"> About </a></li>
+              <li><a href="#gifts"> Gifts </a></li>
+              <li><a href="#contact"> Contact Us </a></li>
+              <li><a class="active" class="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+           </div> 
+        </nav>
+    </header>
+
+    <section id="cart" class="sec1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="b.jpeg" alt=""></td>
+                    <td>Chocolates</td>
+                    <td>Rs 699</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 699</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="g.jpeg" alt=""></td>
+                    <td>Explosion Box</td>
+                    <td>Rs 799</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 799</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="h.jpeg" alt=""></td>
+                    <td>Caricature</td>
+                    <td>Rs 600</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 600</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="sec1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <form>
+                <input type="text" name="coupons" placeholder="Enter your Coupon">
+                <button class="normal">Apply</button>
+            </form>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs 2098</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs 2098</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section> 
+
+    <script src="https://kit.fontawesome.com/976cda5d51.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

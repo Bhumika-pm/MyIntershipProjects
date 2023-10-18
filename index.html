@@ -2,129 +2,231 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-   
+    <title>Whimsy Mingle</title>
 </head>
 <body>
     <header>
         <nav>
-           <img src="logo1.png" alt="" width="75" height="75"/>
-           <div class="left">Bhumika's Portfolio</div>
+           <img src="logo1.png" alt="" width="250" height="210"/>
+           <div class="left">Whimsy Mingle</div>
             
            <div class="right" >
             <ul>
               <li><a href="#home"> Home </a></li>
               <li><a href="#about"> About </a></li>
-              <li><a href="#projects"> Projects </a></li>
-              <li><a href="#skills"> Skills </a></li>
-              <li><a href="#contact"> Contact Me </a></li>
+              <li><a href="#gifts"> Gifts </a></li>
+              <li><a href="#contact"> Contact Us </a></li>
+              <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
             </ul>
            </div> 
         </nav>
     </header> 
-    <!---------Home--------->
-    <main>
+
+     <!---------Home--------->
+     <main>
         <div id="home">
           <section class="firstsection">
             <div class="leftsection" >
-              <p>   Hello,  I'm  <span class="purple"> Bhumika P M </span></p> 
-            <p> And I am a Passionate Learner</p> <br> 
+              <p>  Welcome to <span class="purple"> Gift Mingle</span></p> 
+            <p> Your go-to destination for personalized gift boxes.</p> <br> 
             <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="pt.png.png" alt="">
+                <img src="pt.png" alt="">
             </div>
           </section>
         <hr>
     </div>
     </main> 
+
+
     <!---------About--------->
     <div id="about">
         <div class="row">
             <div class="about1">
-                <img src="formal.jpg" alt="">
+                <br><br>
+                <br><br>
+                <img src="about.png" alt="">
             </div>
           <div class="about2">
-            <h1 class="subtitle">About Me</h1><br>
-            <p id="p1" >Hi! I'm Bhumika, a second-year Computer Science Engineering student with a passion for making cool things with code. I fell in love with tech when I wrote my first "Hello World" program. Now, I'm on a mission to learn and create exciting stuff, from apps to websites.
-                When I'm not coding, you'll find me exploring the creative side of life. I enjoy painting, art and craft and finding ways to make tech more colorful and fun. I also enjoy singing and listening to music.</p><br>
-            <p id="p1">Currently, I'm working on different projects—learning the ropes of coding and turning ideas into reality. It's a journey of trial, error, and a lot of excitement!  I thrive in team environments, fostering a spirit of creativity and open dialogue.
-                 Adaptability is my forte, navigating the dynamic world of technology with ease. Known for my problem-solving prowess, I approach challenges with a positive mindset and keen attention to detail.</p>
+            <h1 class="subtitle">About Us</h1><br>
+            <p id="p1">We are passionate about creating memorable and personalized gifting experiences for every occasion.</p><br>
+            <p id="p1">At Whimsy Mingle, we are driven by the belief that the best gifts go beyond the ordinary. 
+                Our journey began with a passion for creating moments of joy and connection through thoughtful presents. 
+                Committed to delivering personalized gifting experiences, we curate a selection of unique gift boxes for every occasion. 
+                From birthdays to anniversaries, our handpicked items are designed to add a touch of warmth and individuality to your celebrations. 
+                Our team is dedicated to the art of gifting, ensuring each box tells a story and sparks delight. 
+                Join us in the art of giving, where every box is more than a gift - it's a heartfelt expression of your emotions. Welcome to Whimsy Mingle, where every celebration becomes a cherished memory.</p>
             <br>
             <br>
-            <h1>Education</h1><br>
+            <h1 class="subtitle1">We are :</h1><br>
             <ul>
-                <li><span id="edu">2019</span><br>Completion of 10th CBSE from Army Public School</li>
-                <li><span id="edu">2021</span><br>Completion of 2nd PUC from Christ college</li>
-                <li><span id="edu">2025</span><br>Completion of CSE Engineering from New Horizon College of Engineering</li>
+                <li><span id="pts">Passionate Curators:</span><br> Our team is not just a group of individuals; we are passionate curators who meticulously select each item to ensure that every gift box tells a unique and meaningful story.</li>
+                <li><span id="pts">Quality Craftsmanship: </span><br>Embracing the value of quality craftsmanship, we source products from artisans and creators who share our commitment to excellence, resulting in gifts that are not only beautiful but also built to last.</li>
+                <li><span id="pts">Sustainability Commitment:</span><br>Whimsy Mingle is committed to sustainability. We strive to reduce our environmental footprint by using eco-friendly packaging and supporting brands that prioritize ethical and sustainable practices.</li>
+                <li><span id="pts">Customization Expertise: </span><br>Personalization is at the core of what we do. Our customization options go beyond just names - we offer a range of choices to make each gift box a true reflection of the recipient's personality and preferences.</li>
+                <li><span id="pts">Community Engagement: </span><br>Beyond gifting, Whimsy Mingle believes in giving back. We actively engage with and contribute to our community through partnerships, charitable initiatives, and supporting local businesses.</li>
             </ul>
           </div>
         </div>
     </div>
     <hr>
-    <!---------Projects--------->
-    <div id="projects">
-        <div class="container">
-            <h1 class="subtitle">My Projects/Portfolio</h1>
-            <br>
-            <br>
-            <div class="worklist">
-                <div class="work">
-                    <img src="prg1.png">
-                    <div class="layer">
-                        <br><h3>Flower Encyclopedia</h3><br>
-                        <p>This project gives information about the details of flowers and its classification.</p><br>
-                        <a href="Mini.pdf"><button>Check more</button></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="prg2.png">
-                    <div class="layer">
-                       <br><h3>Number System Convertor</h3><br>
-                        <p>This project converts decimal numbers to binary, octal and hexadecimal.</p><br>
-                        <a href="NSC.pdf"><button>Check more</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <!---------skills--------->
-    <div id="skills">
-        <div class="row1">
-            <div class="art1">
-                <img src="art2.png" >
-            </div>
-          <div class="art2">
-             <h1 class="subtitle">Skills and Talents</h1><br>
-             <p id="p2" >I am an artistic soul with a passion for crafting beauty in various forms. My love for art and painting always pushes me to make time for it even when I'm busy with other things. 
-                The vibrant hues and intricate details of nature are the inspiration during the artistic process. My appreciation for music adds another dimension to my artistic personality. 
-                I have Completed and excelled in the junior Carnatic classical music vocal exam which is one of achievements. I have deep interest towards meditation and am an early riser.
-                The harmony between my visual and auditory pursuits creates a rich tapestry of expression, showcasing a multifaceted individual whose artistic journey is as diverse as it is impressive.</p>
-                <br>
-                <br>
-                <p id="p2">You can check out few of my art works!!!</p>
-                <br>
-                <br>
-                <a href="art.pdf"><button>My Art works</button></a>
-                <br>
-            
-           </div>
-        </div>
-    </div>
-    <hr>
 
- <!---------contact--------->
+
+
+    <!---------Gifts--------->
+    <div id="gifts">
+      <section id="prod1" class="sec1">
+        <h2 class="subtitle">Featured Gifts</h2>
+        <p id="p2">New Collection</p>
+        <div class="pro-con">
+          <div class="pro">
+            <img src="a.jpeg" alt="">
+            <div class="des">
+              <h5>Roses</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 499</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart" ></i></a>
+            
+            
+          </div>
+
+          <div class="pro">
+            <img src="b.jpeg" alt="">
+            <div class="des">
+              <h5>Chocolates</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 699</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="c.jpeg" alt="">
+            <div class="des">
+              <h5>Teddy Bear</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 450</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="d.jpeg" alt="">
+            <div class="des">
+              <h5>Magic Mirror</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 650</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="e.jpeg" alt="">
+            <div class="des">
+              <h5>Name Flip</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 599</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="f.jpeg" alt="">
+            <div class="des">
+              <h5>Mug</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 399</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="g.jpeg" alt="">
+            <div class="des">
+              <h5>Explosion Box</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 799</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="h.jpeg" alt="">
+            <div class="des">
+              <h5>Caricature</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>Rs 600</h4>
+            </div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" class="cart"></i></a>
+          </div>
+
+
+        </div>
+      </section>
+      
+    </div>
+
+
+    <!---------contact--------->
     <div id="contact">
+
+      <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="conleft">
-                    <h1 class="subtitle">Contact Me</h1>
+                    <h1 class="subtitle">Contact Us</h1>
                     <p><span class="purple">Mail: </span><i class="fa-sharp fa-solid fa-paper-plane"></i>bhumikapm123@gmail.com</p>
                     <p><span class="purple">Phone: </span><i class="fa-solid fa-phone"></i>9880647959</p>
                     <p><span class="purple">Instagram: </span><i class="fa-brands fa-square-instagram"></i>bhumika_pm</p>
@@ -134,7 +236,7 @@
                       <a href="#contact"><i class="fa-sharp fa-solid fa-paper-plane"></i></a>  
                       <a href="#contact"><i class="fa-brands fa-linkedin"></i></a>  
                     </div><br><br>
-                    <a href="Res1.pdf"><button>My Resume</button></a>
+                    
                 </div>
                 <div class="conright">
                     <form>
@@ -155,11 +257,15 @@
 
     </div>
 
+    </div>
+    
+
+    
     <script src="https://kit.fontawesome.com/976cda5d51.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed=new Typed('#element',{
-            strings: ['I am Adaptable ^300',' Hardworking ^300',' Creative ^300','Resilient ^300'],
+            strings: ['Happiness ^300',' Surprise Factor ^300',' Creative ^300','Bringing Smiles ^300'],
             typeSpeed:100,
             smartBackspace:true,
             loop:true,
@@ -167,6 +273,5 @@
             backDelay:400,
         });
     </script>
-    
 </body>
 </html>

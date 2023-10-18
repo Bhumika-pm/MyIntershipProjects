@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +5,17 @@
     text-decoration: none;
 }
 body{
-   background: rgb(1, 1, 36);
+   background: rgb(47, 1, 48);
    color: white;
-   background-color: rgb(1, 1, 36);
+   background-color: rgb(55, 1, 57);
    text-decoration: none;
 }
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
-    height: 80px;
-    background-color: rgb(28, 5, 85);
+    height: 90px;
+    background-color: rgb(100, 10, 100);
     padding: 0.5rem;
    
 }
@@ -27,7 +26,7 @@ nav ul{
 nav ul li{
     list-style: none;
     color: white;
-    margin: 0 23px;
+    margin: 0 21px;
     float: right;
 }
 nav ul li a{
@@ -36,25 +35,28 @@ nav ul li a{
 }
 nav ul li a:hover{
     
-    color: rgb(210, 132, 246);
+    color: rgb(232, 132, 221);
     font-size: 1.3rem;
 }
 hr{
     border: 0;
-    background-color: rgb(157, 59, 199);
+    background-color: rgb(194, 4, 187);
     height: 1.2px;
     margin: 40px 84px;
 }
 .left{
     font-size: 2.1rem;
-    margin-left: 40px;
+    margin-left: 30px;
     color: white;
 }
 .right{
     font-size: 1.5rem;
-    margin-left: 40px;
+    margin-left: 30px;
    
 }
+
+
+
 .firstsection{
     display: flex;
     justify-content: space-evenly;
@@ -65,27 +67,28 @@ hr{
 
 }
 .firstsection >div{
-    width: 30%;
+    width: 40%;
     
 }
 .leftsection{
-    font-size: 3.5rem;
-    margin: 45px 3px;
-}
-.rightsection img{
-    width: 99%;
+    font-size: 3.2rem;
     margin: 40px 2px;
 }
+.rightsection img{
+    width: 100%;
+    margin: 35px 1px;
+}
 .purple{
-    color: rgb(157, 80, 229);
+    color: rgb(241, 101, 227);
 }
 #element{
-    color: rgb(179, 128, 228);
+    color: rgb(233, 142, 236);
 }
+
 
 
 #about{
-    padding: 80px;
+    padding: 60px;
     color: white;
 }
 .row{
@@ -96,90 +99,123 @@ hr{
     flex-basis: 40%;
 }
 .about1 img{
-    width: 90%;
-    border-radius: 35px;
+    width: 130%;
 }
 .about2{
-    flex-basis: 55%;
+    flex-basis: 60%;
     color: white;
 }
 .subtitle{
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 600;
+    color: white;
+}
+.subtitle1{
+    font-size: 50px;
+    font-weight: 400;
     color: white;
 }
 #p1{
     color: white;
     text-align: justify;
 }
-button {
-    background-color: #bc32e6;
-    color: white;
+button{
+    background-color: #f6f4f6;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
  }
- #edu{
-    color: #b647d7;
+ #pts{
+    color: #ec58f1;
  }
 
- #projects{
-    padding: 50px 0;
-    margin: 60px;
- }
- .worklist{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap: 40px;
-    margin-top: 50px 10px;
-    margin-left: 10px;
-    margin-right: 10px;
- }
 
- .work{
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden; 
+ #prod1{
+    text-align: center;
  }
- .work img{
-    width: 100%;
-    border-radius: 15px;
-    display: block;
+ .sec1{
+    padding: 40px 80px;
  }
-
- #skills{
-    padding: 70px ;
-    color: white;
-    margin: 40px;
-    align-items: center;
- }
- .art1{
-    flex-basis: 45%;
-}
-.art1 img{
-    width: 85%;
-    border-radius: 100px;
-}
-.art2{
-    flex-basis: 51%;
-    color: white;
-    margin-right: 10px;
-}
-.row1{
+ #prod1 .pro-con{
     display: flex;
     justify-content: space-between;
-}
-#p2{
+    padding-top: 20px;
+    flex-wrap: wrap;  /*8 img(4+4) no horizontal slide*/
+ }
+ #prod1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(1, 1, 88);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+ }
+ #prod1 .pro:hover{
+    box-shadow: 20px 20px 30px rgb(1, 1, 63);
+ }
+ #prod1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+ }
+ #prod1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+ }
+ #prod1 .pro .des h5{
+    padding-top: 7px;
+    color: rgb(212, 203, 203);
+    font-size: 14px;
+ }
+ #prod1 .pro .des i{
+    font-size: 12px;
+    color: yellow;
+ }
+ #prod1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
     color: white;
-    text-align: justify;
-}
-#contact{
+ }
+ #prod1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 500;
+    color: lavender;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+ }
+ #p2{
+    font-size: 50px;
+    font-weight: 500;
+ }
+
+
+ #contact{
     padding: 70px ;
     color: white;
     margin: 40px;
     align-items: center; 
+}
+#contact button{
+    background-color: #f6f4f6;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
 .conleft{
    flex-basis: 30%; 
@@ -209,7 +245,7 @@ button {
     transition: transform 0.5s;
   }
   .socialicons a:hover{
-    color: red;
+    color: rgb(183, 195, 15);
     transform: translateY(-5px);
   }
   .conright form{
@@ -219,10 +255,10 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #afa8a8;
+    background: #f8f8f8;
     padding: 15px;
     margin: 15px 0;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border-radius: 6px;
 }
@@ -230,11 +266,112 @@ form input, form textarea{
    width: 100%;
    text-align: center; 
    padding: 25px 0;
-   background: gray;
+   background: rgb(3, 3, 3);
    margin-top: 30px;
 }
 .copyright i{
-    color: red;
+    color: rgb(229, 254, 9);
 }
 
 
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table img{
+   width: 70px;
+
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 200px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+   border: 1px solid rgb(255, 255, 255);
+   border-left: none;
+   border-right: none; 
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody tr td{
+    padding: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
+#cart table td input{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+#coupon input{
+   padding: 10px;
+   outline: none;
+   width: 60%; 
+   margin-right: 10px;
+   border: 1px solid white;
+}
+#coupon button{
+    background-color: gray;
+    color: black;
+    padding: 12px 20px;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 13px;
+}
+#subtotal button{
+    background-color: gray;
+    color: black;
+    padding: 12px 20px;
+}
